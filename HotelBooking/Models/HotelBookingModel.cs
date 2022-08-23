@@ -8,9 +8,9 @@ namespace HotelBooking.Models
 
         public string GuestName { get; set; }
 
-        public DateTime DateStart { get; set; }   
+        public string DateStart { get; set; }   
 
-        public DateTime DateEnd { get; set; }
+        public String DateEnd { get; set; }
         
     }
 }

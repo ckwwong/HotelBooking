@@ -1,0 +1,39 @@
+﻿@model HotelBooking.Models.HotelBookingModel
+
+<h1>Hotel Booking Details</h1>
+<p>Below is a table indicating the details of guests staying at the hotel.</p>
+
+<table class="table table-hover table-bordered ">
+    <caption>Caption - Booking Details of Guests</caption>
+    <thead class="table-dark">
+        <tr>
+            <th scope="col">#ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">DateStart</th>
+            <th scope="col">DateEnd</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">0001</th>
+            <td>Bob Smith</td>
+            <td>2008-01-01</td>
+            <td>2008-01-05</td>
+        </tr>
+        <tr>
+            <th scope="row">0002</th>
+            <td>Dave Fisher</td>
+            <td>2008-01-05</td>
+            <td>2008-01-06</td>
+        </tr>
+        <tr>
+            <th scope="row">0003</th>
+            <td>Adam Tate</td>
+            <td>2008-01-05</td>
+            <td>2008-01-07</td>
+        </tr>
+    </tbody>
+</table>
+
+
+<h4>Guest Id - @Model.Id @Model.GuestName has a booking from @Model.DateStart ending on @Model.DateEnd</h4>
