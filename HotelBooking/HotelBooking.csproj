@@ -10,4 +10,8 @@
     <Folder Include="Views\HotelBooking\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\images\hotelBell.jpg" />
+  </ItemGroup>
+
 </Project>
